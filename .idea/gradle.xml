@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/../Frontier" name="Frontier">
+                <projects>
+                  <project path="$PROJECT_DIR$/../Frontier" />
+                  <project path="$PROJECT_DIR$/../Frontier/Editor" />
+                  <project path="$PROJECT_DIR$/../Frontier/Engine" />
+                  <project path="$PROJECT_DIR$/../Frontier/Game" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/../Frontier" />
+            <option value="$PROJECT_DIR$/../Frontier/Editor" />
+            <option value="$PROJECT_DIR$/../Frontier/Engine" />
+            <option value="$PROJECT_DIR$/../Frontier/Game" />
+            <option value="$PROJECT_DIR$" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
